@@ -5,14 +5,12 @@
 #ifndef Random_hpp
 #define Random_hpp
 
-#ifdef __cplusplus
 #include <cstdio>
 #include <cstdlib>
 #include <ctime>
 
 int getRandomNumber(); /* returns a random number in range 0-100 */
 
-#endif
 #endif
 
 
