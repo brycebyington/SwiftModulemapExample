@@ -1,11 +1,8 @@
-//
-//  main.swift
-//  ModuleMapTest
-//
-//  Created by Bryce Byington on 4/16/25.
-//
 
-import Foundation
+/*
+ import RandomModule, which is exposed to Swift in module.modulemap
+ */
+import RandomModule
 
-print("Hello, World!")
-
+let randomNumber = getRandomNumber()
+print(randomNumber)

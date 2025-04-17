@@ -1,0 +1,11 @@
+/*
+ if running in c++/obj-c interoperability mode:
+ exposes c++ function to Swift
+ 
+ if running in c/obj-c interoperability mode:
+ exposes c++ function wrapped in an extern "C" interface via clang module map to Swift
+ */
+module RandomModule {
+    header "Random.hpp"
+    export *
+}
